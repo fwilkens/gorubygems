@@ -1,4 +1,4 @@
-package rubygemsapi
+package gorubygems
 
 import (
 	"testing"
