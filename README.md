@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/fwilkens/gorubygems.svg?branch=master)](https://travis-ci.org/fwilkens/gorubygems)
+
 ## WIP Go wrapper for the [RubyGems API](http://guides.rubygems.org/rubygems-org-api/).
 
 ### Examples
