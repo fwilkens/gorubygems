@@ -10,12 +10,17 @@ rubygemsapi.JustUpdated() // => []Gem
 Search for a gem by keyword. Rubygems returns 30 records per page.
 This wrapper doesn't have support for paging yet.
 ```go
-rubygemsapi.Search() // => []Gem
+rubygemsapi.Search("rails") // => []Gem
 ```
 
 Get the 50 most recently created gems. (50 is a non-param value decided by Rubygems)
 ```go
 rubygemsapi.Latest() // => []Gem
+```
+
+Get info for a particular gem
+```go
+rubygemsapi.GemInfo("rails") // => Gem
 ```
 
 Gem structs have the following fields:
