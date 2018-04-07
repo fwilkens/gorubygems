@@ -28,3 +28,11 @@ func TestRubyGemsLatest(t *testing.T) {
 		t.Errorf("Expected a response of recently added gems")
 	}
 }
+
+func TestRubyGemsGemInfo(t *testing.T) {
+	gem := GemInfo("rails")
+
+	if gem.Name != "rails" {
+		t.Errorf("Expected gem info for the specified gem")
+	}
+}
